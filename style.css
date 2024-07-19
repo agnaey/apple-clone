@@ -66,17 +66,19 @@ section{
 }
 
 .btn2{
-    display: flex;
-    gap: 20px;
-    text-align: center;
-    color: rgb(100, 171, 238);
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    margin: 0 0.5em;
+    font-size: 1.2em;
+    font-size: "SF pro text regular";
+    color: #007bff;
+    background-color: transparent;
+    border: 1px solid ;
+    border-radius: 25px;
     text-decoration: none;
-    padding: 10px 20px;
-    border: 1px solid rgb(53, 126, 194);
-    border-radius: 20px;
-    width: 40px;
-    margin: 0 auto;
-    font-size: 20px;
+    cursor: pointer;
+
+    
     
 }
 .btn2:hover{
@@ -98,7 +100,7 @@ section{
 .btn3 {
     display: inline-block;
     padding: 0.5em 1.5em;
-    margin: 15px;
+    margin: 5px;
     font-size: 18px;
     color: white;
     background-color: #007bff;
@@ -137,6 +139,7 @@ section{
 .img3{
     width: 100%;
     height: auto;
+    display: flex;
 }
 .btn5{
     display: inline-blok;
@@ -187,6 +190,108 @@ text-align: center;
     font-size: 50px;
     color: white;
 }
+
+
+*{
+    box-sizing: border-box;
+}
+
+.divco1{
+    float: left;
+    width: 50%;
+    padding: 15px;
+    background-color: black;
+    text-align: center;
+}
+.divco2{
+    float: left;
+    width: 50%;
+
+     padding: 15px;
+}
+
+.divrow4::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+@media screen and (max-width: 500px) {
+    .divco{
+        width: 100%;
+    }  
+}
+.img4{
+   
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.h6{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+}
+.h7{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn7{
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 5px;
+    font-size: 18px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn7:hover{
+    background-color:#0066CC;
+    color: white;  
+    
+
+}
+.divco2{
+    background-color: #F5F5F7;
+    text-align: center;
+}
+.h8{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn8{
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 1px solid #007bff;
+
+    
+        display: inline-block;
+        padding: 10px 25px;
+        margin: 5px;
+        font-size: 18px;
+        color: white;
+        background-color: #007bff;
+        border: none;
+        border-radius: 25px;
+        text-decoration: none;
+        cursor: pointer;
+}
+.btn8:hover{
+    background-color:#0066CC;
+}
+.img5{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
 
 
 
