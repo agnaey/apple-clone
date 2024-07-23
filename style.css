@@ -30,7 +30,7 @@ nav ul li {
     
 }
 nav ul li a{
-    font-size: 15px;
+    font-size: 17px;
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px;
@@ -67,9 +67,9 @@ section{
 
 .btn2{
     display: inline-block;
-    padding: 0.5em 1.5em;
-    margin: 0 0.5em;
-    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1vw;
     font-size: "SF pro text regular";
     color: #007bff;
     background-color: transparent;
@@ -330,11 +330,11 @@ margin-top: -18px;
     display: table;
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
     .divco3, .divco4{
         width: 100%;
     }  
-}
+} */
 .img6{
    
     width: 100%;
@@ -448,7 +448,7 @@ margin-top: -18px;
     color: white;
 }
 .h12{
-    margin-left: 215px;
+    margin-left: 225px;
     width: 50%;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
@@ -489,11 +489,11 @@ margin-top: -18px;
      clear: both;
      display: table;
  }
- @media screen and (max-width: 500px) {
+ /* @media screen and (max-width: 500px) {
      .divco{
          width: 10%;
      }  
- }
+ } */
  .img8{
     
      width: 100%;
@@ -571,11 +571,10 @@ margin-top: -18px;
 
 
 
- /* .container{
-    position: relative;
-    max-width: 1200px;
-    margin: 0;
- } */
+ .videooo{
+    width: 100%;
+    height: auto;
+ }
  
 
 
@@ -604,7 +603,6 @@ margin-top: -18px;
 }
 
 .footer-column {
-    flex: 1;
     min-width: 150px;
     margin: 10px 20px;
 }
@@ -620,9 +618,7 @@ margin-top: -18px;
     padding: 0;
 }
 
-.footer-column ul li {
-    margin-bottom: 5px;
-}
+
 
 .footer-column ul li a {
     text-decoration: none;
@@ -665,6 +661,15 @@ margin-top: -18px;
 
 .link{
     color: #000;
+}
+
+
+@media screen and (m-width: 600px) {
+    .size{
+        font-size: 1vw;
+
+    }
+    
 }
 
 
