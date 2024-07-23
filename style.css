@@ -571,12 +571,21 @@ margin-top: -18px;
 
 
 
- .videooo{
-    width: 100%;
-    height: auto;
+
+/* --------------------------------------------- */
+
+.container{
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
  }
  
-
+ .video1 video{
+     width: 100%;
+     height: auto;
+ }
+ 
+/* ---------------------------------------------------- */
 
  footer {
     background-color: #f5f5f7;
@@ -603,6 +612,7 @@ margin-top: -18px;
 }
 
 .footer-column {
+    flex: 1;
     min-width: 150px;
     margin: 10px 20px;
 }
@@ -618,7 +628,9 @@ margin-top: -18px;
     padding: 0;
 }
 
-
+.footer-column ul li {
+    margin-bottom: 5px;
+}
 
 .footer-column ul li a {
     text-decoration: none;
@@ -663,15 +675,58 @@ margin-top: -18px;
     color: #000;
 }
 
+/* ---------------------------------- */
 
-@media screen and (m-width: 600px) {
-    .size{
-        font-size: 1vw;
 
+/* @media screen and (max-width:390px){
+    body{
+        margin:0;
     }
-    
-}
+    .ul1{
+        list-style-type: none;
+        overflow: hidden;
+        background-color: #252525e0;
+        padding:13px 0;
+        position: fixed;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        z-index: 100;
+        backdrop-filter: blur(2px);
+    }
+    li{
+        float: left;
+        padding-left: 25px;
+        margin-left: 20px;
+    }
+    .li1{
+        float: left;
+        padding-left: 25px;
+        margin-left: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(179, 176, 176);
+        font-size: smaller;
+        display: block;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    a:hover{
+        color: rgb(255, 253, 253);
+    }
+    .div1{
+        padding-top:30px;
+        text-align: center;
+    }
+    .img1{
+        width: 100%;
+        position: relative;
+    }
 
+} */
 
 
     
