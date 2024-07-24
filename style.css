@@ -10,13 +10,10 @@ body{
     overflow: hidden;
     width: 100%;
     top: 0;
-    height: auto;
 }
 @media screen and (max-width: 700px) {
-    .nav{
-        overflow: hidden;
-        position: relative;
-    }
+    .nav { position: relative;
+    } 
 }
 
 .nav ul {
@@ -47,7 +44,7 @@ body{
 
 
 .div1{
-    padding-top: 45px;
+    padding: 45px;
 }
 .para1{
     text-align: center;
@@ -63,17 +60,24 @@ text-decoration: none;
 }
 .image1{
     background-color: #F5F5F7;
+    text-align: center;
+    width: 100%;
+    height: auto;
 }
-.image1{
+
+
+/* .image1{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     background-color: #7e7eb3(243, 244, 245);
     width: 100%;
     height: auto;
-}
+    right: 50%;
+} */
 
 .btn2{
+    
     display: inline-block;
     padding: 10px 20px;
     margin: 10px;
@@ -100,21 +104,21 @@ text-decoration: none;
 .h1{
     position: absolute;
     width: 100%;
-    top: 710px;
+    top: 730px;
     font-size: 50px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .h3{
     position: absolute;
     width: 100%;
-    top: 790px;
+    top: 830px;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
 }
 .button1{
     position: absolute;
     width: 100%;
-    top: 850px;
+    top: 890px;
 }
 .btn3 {
     display: inline-block;
@@ -240,7 +244,7 @@ margin-top: -18px;
     clear: both;
     display: table;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .divco{
         width: 100%;
     }  
@@ -413,7 +417,6 @@ margin-top: -18px;
     background-color: black;
     text-align: center;
     margin-top: -18px;
-    position: relative;
     }
 .btn11{
     display: inline-blok;
@@ -457,9 +460,11 @@ margin-top: -18px;
     color: white;
 }
 .h12{
-    color: rgb(245, 0, 0);
+    margin-left: 25%;
+    width: 50%;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(248, 22, 22);
 }
 .h33{
     color: rgb(255, 254, 254);
@@ -682,7 +687,8 @@ margin-top: -18px;
 /* ---------------------------------- */
 
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 700px) {
     .nav ul {
         flex-direction: column;
         gap: 0;
@@ -699,8 +705,8 @@ margin-top: -18px;
         padding-left: 20px;
     }
 }
-@media screen and (max-width: 500px) {
-    .divco5,.divco6{
+@media screen and (max-width: 700px) {
+    .divco1,.divco2,.divco3,.divco4,.divco5,.divco6{
         width: 100%;
     }  
 }
