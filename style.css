@@ -82,7 +82,7 @@ text-decoration: none;
 .btn2{
     
     display: inline-block;
-    padding: 10px 20px;
+    padding: 8px 12px;
     margin: 10px;
     font-size: 20px;
     font-size: "SF pro text regular";
@@ -98,6 +98,7 @@ text-decoration: none;
 }
 .btn2:hover{
     background-color:#007bff ;
+    font-size: 1vm;
     color: white;
 }
 .div2{
@@ -110,12 +111,13 @@ text-decoration: none;
     position: absolute;
     width: 100%;
     font-size: 50px;
+    top: -40px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .h3{
     position: absolute;
     width: 100%;
-    top: 100px;
+    top: 40px;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
 }
@@ -125,8 +127,9 @@ text-decoration: none;
     top: 170px;
 } */
 .btn3 {
+    top: 100PX;
     position: absolute;
-    left: 43%;
+    left: 42%;
     padding: 0.5em 1.5em;
     margin: 5px;
     font-size: 18px;
@@ -145,8 +148,9 @@ text-decoration: none;
 
 .btn4 {
     position:absolute;
-    left: 50%;
-    padding: 0.5em 1.5em;
+    top: 100px;
+    left: 51%;
+    padding: 8px 14px;
     margin: 0 0.5em;
     font-size: 1.2em;
     font-size: "SF pro text regular";
@@ -177,7 +181,7 @@ text-decoration: none;
 } */
 .btn5{
     display: inline-blok;
-    padding: 0.5em 1.5em;
+    padding: 10px 20px;
     margin: 70px;
     font-size: 18px;
     color: white;
@@ -225,7 +229,7 @@ margin-top: -18px;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 50px;
     color: white;
-    padding-top: 30px;
+    padding-top: 80px;
 }
 
 
@@ -324,6 +328,7 @@ margin-top: -18px;
     width: 100%;
     height: 300px;
 }
+
 
 
 *{
@@ -427,8 +432,8 @@ margin-top: -18px;
     margin-top: -18px;
     }
 .btn11{
-    display: inline-blok;
-    padding: 0.5em 1.5em;
+    display: inline-block;
+    padding: 10px 20px;
     margin: 70px;
     font-size: 18px;
     color: white;
@@ -443,9 +448,8 @@ margin-top: -18px;
     background-color: #0066CC;
 }
 .btn12{
-    display: inline-block;
+
     padding: 10px 26px;
-    margin:40px 50px;
     font-size: 1.2em;
     font-size: "SF pro text regular";
     color: #007bff;
@@ -469,6 +473,7 @@ margin-top: -18px;
 }
 .h12{
     margin-left: 25%;
+    padding: -10px;
     width: 50%;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
@@ -483,6 +488,7 @@ margin-top: -18px;
     background-color: black;
     text-align: center;
     margin-top: 10px;
+    
 }
 
 
@@ -727,7 +733,7 @@ margin-top: -18px;
 }
 @media screen and (max-width:700px) {
     .h3{
-        top: 10px;
+        top: 15px;
         font-size: 3vw;
     }
     
@@ -740,20 +746,25 @@ margin-top: -18px;
 }
 @media screen and (max-width:700px) {
     .btn3{
-        top: 40px;
+        top: 55px;
         font-size: 3vw;
         left: 25%;
     }
 }
 @media screen and (max-width:700px) {
     .btn4{
-        top: 43px;
+        top: 55px;
         font-size: 3vw;
         left: 50%;
     }
 }
 
-
+@media screen and (max-width:700px) {
+    .h12{
+        top: 50px;
+    }
+    
+}
 
 
 
