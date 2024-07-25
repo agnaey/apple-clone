@@ -64,6 +64,9 @@ text-decoration: none;
     width: 100%;
     height: auto;
 }
+.image1 img{
+    width: 100%;
+}
 
 
 /* .image1{
@@ -81,7 +84,7 @@ text-decoration: none;
     display: inline-block;
     padding: 10px 20px;
     margin: 10px;
-    font-size: 1vw;
+    font-size: 20px;
     font-size: "SF pro text regular";
     color: #007bff;
     background-color: transparent;
@@ -98,30 +101,32 @@ text-decoration: none;
     color: white;
 }
 .div2{
+    background-color: #F5F5F7;
+    position: relative;
     text-align: center;
     margin-top: 10px;
 }
 .h1{
     position: absolute;
     width: 100%;
-    top: 730px;
     font-size: 50px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .h3{
     position: absolute;
     width: 100%;
-    top: 830px;
+    top: 100px;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
 }
-.button1{
+/* .button1{
     position: absolute;
     width: 100%;
-    top: 890px;
-}
+    top: 170px;
+} */
 .btn3 {
-    display: inline-block;
+    position: absolute;
+    left: 43%;
     padding: 0.5em 1.5em;
     margin: 5px;
     font-size: 18px;
@@ -137,8 +142,10 @@ text-decoration: none;
 
 }
 
+
 .btn4 {
- display: inline-block;
+    position:absolute;
+    left: 50%;
     padding: 0.5em 1.5em;
     margin: 0 0.5em;
     font-size: 1.2em;
@@ -204,6 +211,7 @@ text-decoration: none;
     border: 1px solid #007bff; 
 }
 .div3{
+    position: relative;
 background-color: black;
 text-align: center;
 margin-top: -18px;
@@ -710,6 +718,49 @@ margin-top: -18px;
         width: 100%;
     }  
 }
+@media screen and (max-width: 700px) {
+    .h1{
+        top: -10px;
+        font-size: 5vw;
+        }
+    
+}
+@media screen and (max-width:700px) {
+    .h3{
+        top: 10px;
+        font-size: 3vw;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .img2{
+       padding-top: 50px;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .btn3{
+        top: 40px;
+        font-size: 3vw;
+        left: 25%;
+    }
+}
+@media screen and (max-width:700px) {
+    .btn4{
+        top: 43px;
+        font-size: 3vw;
+        left: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 
