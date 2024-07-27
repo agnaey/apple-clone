@@ -58,18 +58,18 @@ body{
 .btn1{
 text-decoration: none;
 }
-.image1{
+.img1{
     background-color: #F5F5F7;
     text-align: center;
     width: 100%;
     height: auto;
 }
-.image1 img{
+.img1 img{
     width: 100%;
 }
 
 
-/* .image1{
+/* .img1{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -828,6 +828,7 @@ margin-top: -18px;
     .h10,.btn9,.btn10{
         font-size: 3vw;
     }
+}
 
     /* @media screen and (max-width:700px) {
         .h11{
